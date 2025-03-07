@@ -8,7 +8,7 @@ Esta é uma API REST desenvolvida em Java com Spring Boot para gerenciar um cada
 A API permite operações CRUD (Create, Read, Update, Delete) para manipulação de registros no banco de dados.
 
 ## Tecnologias Utilizadas
-- Java 17
+- Java 21
 - Spring Boot 3.2
 - Spring Data JPA
 - Banco de Dados H2
