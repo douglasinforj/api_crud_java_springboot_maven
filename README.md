@@ -16,7 +16,7 @@ A API permite operações CRUD (Create, Read, Update, Delete) para manipulação
 - Maven (gerenciamento de dependências)
 
 ## Estrutura do Projeto
-`
+```
 springboot-pessoas-api
 │── src
 │   ├── main
@@ -35,13 +35,13 @@ springboot-pessoas-api
 │── pom.xml
 │── README.md
 
-`
+```
 
 ## Configuração do Banco de Dados
 A API está configurada para usar o banco H2 em memória para testes.
 
 - Arquivo: src/main/resources/application.properties
-`
+```
 spring.datasource.url=jdbc:h2:mem:pessoasdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
@@ -50,4 +50,4 @@ spring.datasource.password=
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.h2.console.enabled=true
 
-`
+```
